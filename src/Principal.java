@@ -23,7 +23,7 @@ public class Principal extends JFrame {
     {
         panel = new JPanel();
         panel.setLayout(null);
-        //panel.setBackground(Color.white);
+        panel.setBackground(Color.white);
         this.getContentPane().add(panel);
     }
 
