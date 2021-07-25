@@ -13,7 +13,7 @@ public class ConexionConsulta {
         try
         {
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/examendiagnostico?serverTimezone=UTC",
-                    "root","Soyuncacahuate_1");
+                    "root","Tu_Contraseña");
             statement = connection.createStatement();
             datos= statement.executeQuery(Consulta);
         }
