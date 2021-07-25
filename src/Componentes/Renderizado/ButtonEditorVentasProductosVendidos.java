@@ -65,7 +65,7 @@ public class ButtonEditorVentasProductosVendidos extends DefaultCellEditor{
     public  void consulta() throws SQLException {
         try{
             conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/examendiagnostico?serverTimezone=UTC",
-                    "root","Soyuncacahuate_1");
+                    "root","Tu_Contraseña");
             System.out.println("Conectado!");
         }catch(SQLException e){
             e.printStackTrace();
